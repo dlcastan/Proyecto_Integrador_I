@@ -76,7 +76,7 @@ CREATE TABLE sales (
 
 -- 3. Crear los datos desde archivos CSV
 
-LOAD DATA INFILE '/Users/dlopez/Documents/Apps/Henry/Proyecto_1/data/categories.csv'
+LOAD DATA INFILE '/Mi_Path/Proyecto_1/data/categories.csv'
 INTO TABLE categories
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
@@ -85,7 +85,7 @@ IGNORE 1 ROWS
 (CategoryID, CategoryName);   
 
 
-LOAD DATA LOCAL INFILE '/Users/dlopez/Documents/Apps/Henry/Proyecto_1/data/countries.csv'
+LOAD DATA LOCAL INFILE '/Mi_Path/Proyecto_1/data/countries.csv'
 INTO TABLE countries
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
@@ -94,7 +94,7 @@ IGNORE 1 ROWS
 (CountryID, CountryName, CountryCode);
 
 
-LOAD DATA LOCAL INFILE '/Users/dlopez/Documents/Apps/Henry/Proyecto_1/data/cities.csv'
+LOAD DATA LOCAL INFILE '/Mi_Path/Proyecto_1/data/cities.csv'
 INTO TABLE cities
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
@@ -102,7 +102,7 @@ LINES TERMINATED BY '\n'
 IGNORE 1 ROWS
 (CityID, CityName, Zipcode, CountryID);
 
-LOAD DATA LOCAL INFILE '/Users/dlopez/Documents/Apps/Henry/Proyecto_1/data/customers.csv'
+LOAD DATA LOCAL INFILE '/Mi_Path/Proyecto_1/data/customers.csv'
 INTO TABLE customers
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
@@ -110,7 +110,7 @@ LINES TERMINATED BY '\n'
 IGNORE 1 ROWS
 (CustomerID, FirstName, MiddleInitial, LastName, CityID, Address);
 
-LOAD DATA LOCAL INFILE '/Users/dlopez/Documents/Apps/Henry/Proyecto_1/data/employees.csv'
+LOAD DATA LOCAL INFILE '/Mi_Path/Proyecto_1/data/employees.csv'
 INTO TABLE employees
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
@@ -118,7 +118,7 @@ LINES TERMINATED BY '\n'
 IGNORE 1 ROWS
 (EmployeeID, FirstName, MiddleInitial, LastName, BirthDate, Gender, CityID, HireDate);
 
-LOAD DATA LOCAL INFILE '/Users/dlopez/Documents/Apps/Henry/Proyecto_1/data/products.csv'
+LOAD DATA LOCAL INFILE '/Mi_Path/Proyecto_1/data/products.csv'
 INTO TABLE products
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
@@ -126,16 +126,10 @@ LINES TERMINATED BY '\n'
 IGNORE 1 ROWS
 (ProductID, ProductName, Price, CategoryID, Class, ModifyDate, Resistant, IsAllergic, VitalityDays);
 
-LOAD DATA LOCAL INFILE '/Users/dlopez/Documents/Apps/Henry/Proyecto_1/data/sales.csv'
+LOAD DATA LOCAL INFILE '/Mi_Path/Proyecto_1/data/sales.csv'
 INTO TABLE sales
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 ROWS
 (SalesID, SalesPersonID, CustomerID, ProductID, Quantity, Discount, TotalPrice, SalesDate, TransactionNumber);
-
-
-
-
-
-
