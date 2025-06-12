@@ -93,6 +93,8 @@ Proyecto\_3/
 
 ---
 
+## Nota: El archivo sales.csv no se encuentra dentro del directorio de data ya que tiene un tamaño de 517 MB. El archivo lo subí a Google Drive con la url: https://drive.google.com/file/d/1VpdMcFgKm-8Eab47tJnC-sogaDfRH64Z/view?usp=sharing
+
 ## 📄 Licencia
 
 Este proyecto es solo para fines educativos y de práctica.  
