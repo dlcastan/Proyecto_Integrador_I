@@ -41,7 +41,7 @@ Proyecto\_1/
 
 - **data/**: Contiene los archivos de datos en formato CSV usados para análisis y carga.  
 - **sql/**: Contiene scripts SQL de carga,  procesamiento y las consultas solicitadas.  
-- **Documentos/**: Carpeta destinada a contestar las consultas realizadas y copiar la evidencia de las mismas.
+- **Documentos/**: Carpeta destinada a contestar las consultas realizadas y copiar la evidencia de las mismas. El archivo están en formato doc y pdf.
 
 ---
 
@@ -60,7 +60,7 @@ Proyecto\_2/
 ### 📌 Descripción
 
 - **sql/**: Contiene scripts SQL las consultas solicitadas.  
-- **Documentos/**: Carpeta destinada a contestar las preguntas realizadas y copiar los resultados.
+- **Documentos/**: Carpeta destinada a contestar las preguntas realizadas y copiar los resultados. El archivo están en formato doc y pdf.
 
 ---
 
@@ -77,7 +77,7 @@ Proyecto\_3/
 ### 📌 Descripción
 
 - **data/**: Contiene los archivos para realizar la carga.  
-- **Documentos/**: Carpeta destinada a contestar las consultas realizadas y copiar la evidencia de las mismas.  
+- **Documentos/**: Carpeta destinada a contestar las consultas realizadas y copiar la evidencia de las mismas. El archivo están en formato doc y pdf. 
 - **Notebook/**: Contiene el archivo .ipynb donde se realizan las consultas solicitadas.
 
 ---
@@ -90,6 +90,21 @@ Proyecto\_3/
 - SQL (PostgreSQL, SQLite u otro gestor)
 
 ---
+### Descargar repo desde Github
+
+```bash
+git clone https://github.com/dlcastan/Proyecto_Integrador_I.git
+
+### Crear un entorno virtual
+
+```bash
+python -m venv venv
+
+
+### Instalar las librerias necesarias 
+
+```bash
+pip install -r requirements.txt
 
 Nota: El archivo sales.csv no se encuentra dentro del directorio de data ya que tiene un tamaño de 517 MB. El archivo lo subí a Google Drive con la url: https://drive.google.com/file/d/1VpdMcFgKm-8Eab47tJnC-sogaDfRH64Z/view?usp=sharing
 
