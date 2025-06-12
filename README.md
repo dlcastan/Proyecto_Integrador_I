@@ -1,2 +1,98 @@
-# Proyecto_Integrador_I
-Proyecto Integrador I - Henry - Data Engineer
+# Proyecto Integrador de Henry
+
+Carrera: Data Engineer  
+Alumno: Diego Lopez Castan
+
+Este repositorio contiene los tres primeros proyectos de la carrera de Data Engineer de Henry. 
+
+---
+
+## 📁 Proyecto\_1
+
+### ▶️ Estructura
+
+Proyecto\_1/
+
+├── data/
+
+│   ├── categories.csv
+
+│   ├── cities.csv
+
+│   ├── countries.csv
+
+│   ├── customers.csv
+
+│   ├── employees.csv
+
+│   ├── products.csv
+
+│   └── sales.csv
+
+├── Documentos/
+
+├── sql/
+
+│   ├── load/
+
+│   └── scripts/
+
+### 📌 Descripción
+
+- **data/**: Contiene los archivos de datos en formato CSV usados para análisis y carga.  
+- **sql/**: Contiene scripts SQL de carga,  procesamiento y las consultas solicitadas.  
+- **Documentos/**: Carpeta destinada a contestar las consultas realizadas y copiar la evidencia de las mismas.
+
+---
+
+## 📁 Proyecto\_2
+
+### ▶️ Estructura
+
+Proyecto\_2/
+
+├── Documentos/
+
+└── sql/
+
+    └── Scripts\_Proyecto\_Integrador\_II.sql
+
+### 📌 Descripción
+
+- **sql/**: Contiene scripts SQL las consultas solicitadas.  
+- **Documentos/**: Carpeta destinada a contestar las preguntas realizadas y copiar los resultados.
+
+---
+
+## 📁 Proyecto\_3
+
+### ▶️ Estructura
+
+Proyecto\_3/
+
+├── Data/
+
+├── Documentos/
+
+└── Notebook/
+
+### 📌 Descripción
+
+- **data/**: Contiene los archivos para realizar la carga.  
+- **Documentos/**: Carpeta destinada a contestar las consultas realizadas y copiar la evidencia de las mismas.  
+- **Notebook/**: Contiene el archivo .ipynb donde se realizan las consultas solicitadas.
+
+---
+
+## 🛠 Requisitos
+
+- Python 3.x  
+- Pandas  
+- Jupyter Notebook  
+- SQL (PostgreSQL, SQLite u otro gestor)
+
+---
+
+## 📄 Licencia
+
+Este proyecto es solo para fines educativos y de práctica.  
