@@ -70,8 +70,6 @@ Proyecto\_2/
 
 Proyecto\_3/
 
-├── Data/
-
 ├── Documentos/
 
 └── Notebook/
